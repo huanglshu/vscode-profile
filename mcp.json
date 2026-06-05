@@ -18,7 +18,7 @@
 		],
 		"command": "npx",
 		"env": {
-			"MYSQL_HOST": "172.16.0.201",
+			"MYSQL_HOST": "8.138.192.145",
 			"MYSQL_PORT": "30001",
 			"MYSQL_USER": "read_only_user",
 			"MYSQL_PASSWORD": "Sic_2026",
@@ -34,7 +34,7 @@
 		],
 		"command": "npx",
 		"env": {
-			"MYSQL_HOST": "172.16.0.3",
+			"MYSQL_HOST": "43.139.137.124",
 			"MYSQL_PORT": "30001",
 			"MYSQL_USER": "read_only_user",
 			"MYSQL_PASSWORD": "Sic_2026",
