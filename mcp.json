@@ -1,0 +1,61 @@
+{
+	"context7": {
+		"args": [
+			"@upstash/context7-mcp@1.0.31"
+		],
+		"command": "npx",
+		"env": {
+			"CONTEXT7_API_KEY": "ctx7sk-0578d541-6e8b-4dd7-b0ca-d6b5acd5cff7"
+		},
+		"gallery": "https://api.mcp.github.com",
+		"type": "stdio",
+		"version": "1.0.31"
+	},
+	"sukedeng-prod": {
+		"args": [
+			"-y",
+			"@fhuang/mcp-mysql-server"
+		],
+		"command": "npx",
+		"env": {
+			"MYSQL_HOST": "172.16.0.201",
+			"MYSQL_PORT": "30001",
+			"MYSQL_USER": "read_only_user",
+			"MYSQL_PASSWORD": "Sic_2026",
+			"MYSQL_DATABASE": "sukedeng_prod"
+		},
+		"type": "stdio",
+		"description": "速客登，元朝会所拉新系统生产数据库"
+	},
+	"xhy-prod": {
+		"args": [
+			"-y",
+			"@fhuang/mcp-mysql-server"
+		],
+		"command": "npx",
+		"env": {
+			"MYSQL_HOST": "172.16.0.3",
+			"MYSQL_PORT": "30001",
+			"MYSQL_USER": "read_only_user",
+			"MYSQL_PASSWORD": "Sic_2026",
+			"MYSQL_DATABASE": "cras_prod"
+		},
+		"type": "stdio",
+		"description": "喜合阳生产数据库"
+	},
+	"ssh": {
+		"command": "npx",
+		"args": [
+			"-y",
+			"@fangjunjie/ssh-mcp-server",
+			"--host",
+			"8.138.192.145",
+			"--port",
+			"11022",
+			"--username",
+			"root",
+			"--privateKey",
+			"~/.ssh/shlin_id_rsa"
+		]
+	}
+}
