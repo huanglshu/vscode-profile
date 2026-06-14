@@ -27,6 +27,38 @@
 		"type": "stdio",
 		"description": "速客登，元朝会所拉新系统生产数据库"
 	},
+	"sukedeng-sit": {
+		"args": [
+			"-y",
+			"@fhuang/mcp-mysql-server"
+		],
+		"command": "npx",
+		"env": {
+			"MYSQL_HOST": "172.30.60.139",
+			"MYSQL_PORT": "8001",
+			"MYSQL_USER": "root",
+			"MYSQL_PASSWORD": "aofei123",
+			"MYSQL_DATABASE": "sukedeng_sit"
+		},
+		"type": "stdio",
+		"description": "速客登，元朝会所拉新系统生产数据库"
+	},
+	"sukedeng-uat": {
+		"args": [
+			"-y",
+			"@fhuang/mcp-mysql-server"
+		],
+		"command": "npx",
+		"env": {
+			"MYSQL_HOST": "172.30.60.139",
+			"MYSQL_PORT": "8001",
+			"MYSQL_USER": "root",
+			"MYSQL_PASSWORD": "aofei123",
+			"MYSQL_DATABASE": "sukedeng_uat"
+		},
+		"type": "stdio",
+		"description": "速客登，元朝会所拉新系统生产数据库"
+	},
 	"xhy-prod": {
 		"args": [
 			"-y",
